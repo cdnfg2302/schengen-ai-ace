@@ -127,20 +127,4 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
-
-  /* 手册样式 */
-  .perspective-1000 {
-    perspective: 1000px;
-  }
-  
-  .brochure-page {
-    transform-style: preserve-3d;
-  }
-  
-  /* 键盘导航 */
-  @media (min-width: 768px) {
-    body {
-      overflow-x: hidden;
-    }
-  }
 }
