@@ -91,7 +91,7 @@ const ContactSection = () => {
                   <Mail className="w-5 h-5 text-tech-blue" />
                   <div>
                     <p className="font-semibold text-deep-blue">联系人</p>
-                    <p className="text-muted-foreground">[您的姓名]</p>
+                    <p className="text-muted-foreground">签证助手</p>
                   </div>
                 </div>
                 
@@ -99,7 +99,7 @@ const ContactSection = () => {
                   <Phone className="w-5 h-5 text-tech-blue" />
                   <div>
                     <p className="font-semibold text-deep-blue">联系电话</p>
-                    <p className="text-muted-foreground">[您的电话]</p>
+                    <p className="text-muted-foreground">028-62059704</p>
                   </div>
                 </div>
               </div>
@@ -109,7 +109,7 @@ const ContactSection = () => {
                   <Globe className="w-5 h-5 text-tech-blue" />
                   <div>
                     <p className="font-semibold text-deep-blue">官方网站</p>
-                    <p className="text-muted-foreground">[您的网站]</p>
+                    <p className="text-muted-foreground">www.claymore.com</p>
                   </div>
                 </div>
                 
@@ -117,7 +117,7 @@ const ContactSection = () => {
                   <MapPin className="w-5 h-5 text-tech-blue" />
                   <div>
                     <p className="font-semibold text-deep-blue">公司地址</p>
-                    <p className="text-muted-foreground">[您的地址]</p>
+                    <p className="text-muted-foreground">成都市高新区天府五街200号5号楼5楼</p>
                   </div>
                 </div>
               </div>
