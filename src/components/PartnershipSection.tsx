@@ -16,7 +16,7 @@ const PartnershipSection = () => {
       icon: Gift,
       title: "个人认证奖",
       condition: "专员成功处理第一单",
-      reward: "50元 / 人"
+      reward: "40元 / 人"
     },
     {
       icon: Target,
@@ -28,7 +28,7 @@ const PartnershipSection = () => {
       icon: MessageSquare,
       title: "产品共创奖",
       condition: "提供高质量反馈被采纳",
-      reward: "100 - 200元 / 次"
+      reward: "100元 / 人"
     }
   ];
 
