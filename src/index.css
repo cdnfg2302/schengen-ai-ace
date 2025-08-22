@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 217.2 91.2% 59.8%;
+    --primary: 340 82% 75%;  /* Soft pink for macaron theme */
     --primary-foreground: 0 0% 100%;
 
     --secondary: 210 40% 96.1%;
@@ -36,18 +36,18 @@ All colors MUST be HSL.
     --input: 220 13% 91%;
     --ring: 217.2 91.2% 59.8%;
 
-    /* Custom design tokens for the visa AI brochure */
-    --tech-blue: 217.2 91.2% 59.8%;
-    --deep-blue: 222.2 47.4% 11.2%;
-    --warning-orange: 25 95% 53%;
-    --success-green: 142.1 76.2% 36.3%;
-    --premium-gold: 43 96.4% 56.3%;
+    /* Custom macaron color tokens for the visa AI brochure */
+    --tech-blue: 200 85% 65%;     /* Mint blue */
+    --deep-blue: 240 65% 70%;     /* Soft lavender blue */
+    --warning-orange: 30 85% 75%; /* Soft peach */
+    --success-green: 120 60% 70%; /* Soft mint green */
+    --premium-gold: 50 90% 75%;   /* Soft lemon yellow */
     
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(217.2 91.2% 59.8%), hsl(222.2 47.4% 11.2%));
-    --gradient-hero: linear-gradient(135deg, hsl(222.2 47.4% 11.2%), hsl(217.2 91.2% 59.8%));
-    --gradient-warning: linear-gradient(135deg, hsl(25 95% 53%), hsl(43 96.4% 56.3%));
-    --gradient-success: linear-gradient(135deg, hsl(142.1 76.2% 36.3%), hsl(158.1 64.4% 51.6%));
+    /* Macaron gradients - soft pastels with vibrant collision */
+    --gradient-primary: linear-gradient(135deg, hsl(340 82% 75%), hsl(240 65% 70%));
+    --gradient-hero: linear-gradient(135deg, hsl(340 82% 75%), hsl(200 85% 65%));
+    --gradient-warning: linear-gradient(135deg, hsl(30 85% 75%), hsl(50 90% 75%));
+    --gradient-success: linear-gradient(135deg, hsl(120 60% 70%), hsl(200 85% 65%));
     
     /* Shadows */
     --shadow-tech: 0 10px 40px -10px hsl(217.2 91.2% 59.8% / 0.3);
@@ -126,5 +126,21 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* 手册样式 */
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  .brochure-page {
+    transform-style: preserve-3d;
+  }
+  
+  /* 键盘导航 */
+  @media (min-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
   }
 }
