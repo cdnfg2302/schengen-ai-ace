@@ -65,16 +65,16 @@ const ContactSection = () => {
               锁定未来，赢在当下！
             </p>
             
-            {/* QR Code */}
+            {/* QR Code Placeholder */}
             <div className="bg-white rounded-lg p-8 inline-block mb-8">
-              <img 
-                src="/lovable-uploads/9363ef78-d59a-4571-b06c-d2a63929764d.png" 
-                alt="联系我们二维码"
-                className="w-32 h-32 mx-auto mb-4"
-              />
+              <QrCode className="w-32 h-32 text-deep-blue mx-auto mb-4" />
               <p className="text-deep-blue font-semibold">扫描二维码</p>
               <p className="text-sm text-muted-foreground">立即申请体验</p>
             </div>
+            
+            <Button size="lg" className="bg-premium-gold text-white hover:bg-premium-gold/90 text-lg px-8 py-4 rounded-lg shadow-premium">
+              立即申请
+            </Button>
           </CardContent>
         </Card>
 

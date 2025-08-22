@@ -112,7 +112,7 @@ const PrivilegesSection = () => {
           </p>
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 inline-block">
             <p className="text-premium-gold text-lg font-semibold">
-              仅限前10名合作伙伴享受首批特权
+              仅限前100名合作伙伴享受首批特权
             </p>
           </div>
         </div>
