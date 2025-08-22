@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom theme colors
+				'tech-blue': 'hsl(var(--tech-blue))',
+				'deep-blue': 'hsl(var(--deep-blue))',
+				'warning-orange': 'hsl(var(--warning-orange))',
+				'success-green': 'hsl(var(--success-green))',
+				'premium-gold': 'hsl(var(--premium-gold))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +68,17 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-warning': 'var(--gradient-warning)',
+				'gradient-success': 'var(--gradient-success)',
+			},
+			boxShadow: {
+				'tech': 'var(--shadow-tech)',
+				'premium': 'var(--shadow-premium)',
+				'card': 'var(--shadow-card)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
